@@ -1,5 +1,15 @@
-streamlit==1.38.0
-pandas==2.2.2
-numpy==1.26.4
-openpyxl==3.1.4
+# Cho phép các phiên bản Streamlit 1.x nhưng không tự động lên 2.0
+streamlit~=1.38
+
+# Cho phép các phiên bản Pandas 2.x nhưng không tự động lên 3.0
+pandas~=2.2
+
+# Cho phép các phiên bản NumPy 1.x
+numpy~=1.26
+
+# Cho phép các phiên bản Openpyxl 3.x
+openpyxl~=3.1
+
+# xlrd là thư viện ổn định, phiên bản 2.0.1 là tiêu chuẩn để đọc file .xls
+# Giữ phiên bản này để đảm bảo tính ổn định nhất
 xlrd==2.0.1
