@@ -3,3 +3,6 @@ pandas
 numpy
 openpyxl
 xlrd
+requests==2.32.3
+
+
