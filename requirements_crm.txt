@@ -1,5 +1,13 @@
-streamlit
-pandas
-numpy
-openpyxl
-xlrd
+# Core
+streamlit==1.39.0
+pandas==2.2.3
+numpy==1.26.4
+
+# Excel support
+openpyxl==3.1.5   # bắt buộc cho .xlsx
+xlrd==2.0.1       # bắt buộc cho .xls (Excel 97-2003)
+pyxlsb==1.0.10    # hỗ trợ đọc .xlsb nếu cần
+
+# Optional dependencies để tăng độ ổn định
+lxml==5.2.2
+et-xmlfile==1.1.0
